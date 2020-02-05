@@ -17,4 +17,9 @@ class Artist
   def songs
     @songs
   end
+
+  def add_song_by_name(song, genre)]
+    song = Song.new(name, genre)
+    add_song(song)
+  end
 end
